@@ -1,0 +1,64 @@
+.Heading{
+    line-height: 5rem; /*Helps to place the Text at the middle of the line */
+    font-size: 7vmin;
+    margin-top: 1rem;
+}  
+*{
+    background-color: beige;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+   
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/*Used to shrink the image or make the image look good according to the area given to it..*/
+    border-radius: 50%;/*The image will become circular shape*/
+}
+.choices{
+    display: flex;/*Aki line e anar jonno*/
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;/*Gap between the divs*/
+    margin-top: 5rem;
+}
+.choice:hover{
+    opacity: 80%;
+    cursor: pointer;/*Jokhon oi div tar upure hover hbe tokhon arrow ta change hoye cursor hoa jabe*/
+    background-color: rgb(249, 65, 65);/*Border asbe akta hover korara time e*/
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    
+}
+.score{
+    font-size: 2rem;
+}
+.msgcontainer{
+    margin-top: 2rem;
+}
+.msg{
+    font-size: 2rem;
+    background-color: rgb(7, 7, 7);
+    display: inline;/*Ata korle jeituku jaga te text ache oituku jaga r text er pichone e background colour asbe.*/
+    color: aliceblue;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+
+
